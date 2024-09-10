@@ -1,3 +1,6 @@
+#!/bin/bash
+
+bashrc_file="$HOME/.bashrc"
 source /opt/ros/humble/setup.bash
 source /usr/share/gazebo/setup.bash
 source ~/.bashrc
@@ -20,7 +23,24 @@ source ~/turtlebot3_ws/install/setup.bash
 . /usr/share/gazebo-11/setup.sh
 cd ~/turtlebot3_ws && colcon build --symlink-install
 
-sudo echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-sudo echo "source ~/turtlebot3_ws/install/setup.bash" >> ~/.bashrc
-sudo echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
-sudo echo "source /usr/share/gazebo/setup.bash" >> ~/.bashrc
+# Define the statements you want to check and potentially add
+statements=(
+    'source /opt/ros/humble/setup.bash'
+    'source ~/turtlebot3_ws/install/setup.bash'
+    'export TURTLEBOT3_MODEL=waffle'
+    'source /usr/share/gazebo/setup.bash'
+)
+
+# Loop through each statement
+for statement in "${statements[@]}"; do
+    # Check if the statement is present in the .bashrc file
+    if ! grep -qF "$statement" "$bashrc_file"; then
+
+        echo "$statement" >> "$bashrc_file"
+    fi
+done
+
+# sudo echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+# sudo echo "source ~/turtlebot3_ws/install/setup.bash" >> ~/.bashrc
+# sudo echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
+# sudo echo "source /usr/share/gazebo/setup.bash" >> ~/.bashrc
