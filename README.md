@@ -25,7 +25,7 @@ You can run ROS 2 directly on Linux, Windows, or macOS, or you can use Docker fo
 ROS 2 includes powerful features like actions, nodes, topics, services, parameters, logging, and the ability to operate across multiple devices. To learn more about these capabilities, the official ROS 2 documentation and tutorials are a great place to start: https://docs.ros.org/en/humble/index.html. Happy coding with ROS 2!
 
 ---
-#  Commands
+#  Commands for enviroment setup
 ## VM setup account
 ```
 sudo usermod -aG sudo <username>
