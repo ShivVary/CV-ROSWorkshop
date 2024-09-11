@@ -19,7 +19,7 @@ To comfortably understand this tutorial, you should be familiar with basic comma
 - Basic Networking Knowledge: Understanding how networks work will help when working with distributed ROS 2 systems.
 - Stable Internet Connection: Essential for downloading packages, updates, and dependencies.
   
-You can run ROS 2 directly on Linux, Windows, or macOS, or you can use Docker for a more isolated environment. Installation guides are available on the official ROS 2 website, and you can find detailed instructions for your operating system there.
+You can run ROS 2 directly on Linux or Windows, or you can use Docker for a more isolated environment.To save time, we are setting up a VM hosted on GCP. Installation guides are available on the official ROS 2 website, and you can find detailed instructions for your operating system there.
 
 ## More Resources
 ROS 2 includes powerful features like actions, nodes, topics, services, parameters, logging, and the ability to operate across multiple devices. To learn more about these capabilities, the official ROS 2 documentation and tutorials are a great place to start: https://docs.ros.org/en/humble/index.html. Happy coding with ROS 2!
