@@ -23,3 +23,35 @@ You can run ROS 2 directly on Linux, Windows, or macOS, or you can use Docker fo
 
 ## More Resources
 ROS 2 includes powerful features like actions, nodes, topics, services, parameters, logging, and the ability to operate across multiple devices. To learn more about these capabilities, the official ROS 2 documentation and tutorials are a great place to start: https://docs.ros.org/en/humble/index.html. Happy coding with ROS 2!
+
+---
+#  Commands
+## VM setup account
+```
+sudo usermod -aG sudo <username>
+sudo passwd <username>
+```
+## Setup remote desktop
+```
+wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb 
+sudo apt-get install –assume-yes ./chrome-remote-desktop_current_amd64.deb
+sudo apt update && sudo apt upgrade
+sudo apt install slim 
+```
+## Restart slim 
+```
+sudo reboot
+sudo service slim start
+```
+## Install packages
+```
+cd ~
+git clone
+cd ROSWorkshop
+chmod +x install_combo.sh
+./install_combo.sh
+```
+## Test Run
+```
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+```
