@@ -26,7 +26,7 @@ ROS 2 includes powerful features like actions, nodes, topics, services, paramete
 
 ---
 #  Commands for enviroment setup
-## VM setup account
+## VM account setup
 ```
 sudo usermod -aG sudo <username>
 sudo passwd <username>
