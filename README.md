@@ -46,7 +46,7 @@ sudo service slim start
 ## Install packages
 ```
 cd ~
-git clone
+git clone https://github.com/ShivVary/ROSWorkshop.git
 cd ROSWorkshop
 chmod +x install_combo.sh
 ./install_combo.sh
