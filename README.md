@@ -1,6 +1,7 @@
 # OpenCV + ROS2 Tutorial
 ## Day 1 - OpenCV tutorial + VM Setup
-Link to the [VM setup instructions](https://www.canva.com/design/DAGQVYCFV04/FyIdE5foRu51QZp6f6cTZg/edit?utm_content=DAGQVYCFV04&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Link to the [VM setup instructions](https://www.canva.com/design/DAGQVYCFV04/FyIdE5foRu51QZp6f6cTZg/edit?utm_content=DAGQVYCFV04&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
+
 Link to the [Open CV tutorial](https://docs.google.com/document/d/1BChFJIBk2sLydrGdqkoIz4FfSqWrsZOTjOvE-tvFalQ/edit?usp=sharing)
 
 # VM Setup links
