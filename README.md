@@ -30,6 +30,7 @@ chmod +x install_combo.sh
 ```
 ## Test Run
 ```
+source ~/.bashrc
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
 ---
