@@ -1,0 +1,9 @@
+# StateService.srv
+# This service handles requests to manage or query state data.
+
+int32 new_state
+int32 trans_sig  
+
+---
+# Response part: includes a success indicator and a message
+bool success       # Indicates if the operation was successful
