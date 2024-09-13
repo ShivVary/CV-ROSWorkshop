@@ -37,7 +37,7 @@ sudo service slim start
 ## Install packages in the VM
 ```
 cd ~
-git clone https://github.com/ShivVary/ROSWorkshop.git
+git clone https://github.com/ShivVary/CV-ROSWorkshop.git
 cd ~/ROSWorkshop/"Installation Files"
 chmod +x install_combo.sh
 ./install_combo.sh
