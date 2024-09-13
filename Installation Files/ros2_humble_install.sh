@@ -24,7 +24,7 @@ yes | sudo apt upgrade
 yes | sudo apt install ros-humble-desktop
 yes | sudo apt install ros-dev-tools
 
-yes | sudo snap install --classic 
+yes | sudo snap install code --classic 
 
 yes | sudo apt install python3-pip
 yes | pip3 install numpy matplotlib
