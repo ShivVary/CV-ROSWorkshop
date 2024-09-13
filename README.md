@@ -1,4 +1,8 @@
 # OPENCV + ROS 2 Tutorial
+---
+## Day 1 - VM setup and OpenCV tutorial 
+## Day 2 - ROS2 tutorial 
+--- 
 ## What is ROS 2? Why should I use it?
 ROS 2 (Robot Operating System 2) is the next generation of the original ROS, designed to address the limitations of ROS 1 and make it more suitable for modern robotics applications. Here are some key benefits of using ROS 2:
 
