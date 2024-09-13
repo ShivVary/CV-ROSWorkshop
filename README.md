@@ -33,6 +33,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
 ---
 ## Day 1 - OpenCV tutorial 
+Link to the [workshop tutorial](https://docs.google.com/document/d/1BChFJIBk2sLydrGdqkoIz4FfSqWrsZOTjOvE-tvFalQ/edit?usp=sharing)
 ## What is OpenCV?
 OpenCV (Open Source Computer Vision Library) is an open-source software library that provides a vast range of computer vision and machine learning algorithms. It is widely used in both academic and industrial settings for developing vision-based applications. Here are some key benefits of using OpenCV:
 
