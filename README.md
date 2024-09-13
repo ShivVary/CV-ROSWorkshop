@@ -3,13 +3,14 @@
 #  Commands for enviroment setup
 ## VM account setup
 ```
+sudo apt upgrade && sudo apt update 
 sudo usermod -aG sudo <username>
 sudo passwd <username>
 ```
 ## Setup remote desktop
 ```
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb 
-sudo apt-get install –assume-yes ./chrome-remote-desktop_current_amd64.deb
+sudo apt-get install -–assume-yes ./chrome-remote-desktop_current_amd64.deb
 sudo apt update && sudo apt upgrade
 sudo apt install slim
 sudo apt install ubuntu-desktop
