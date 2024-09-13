@@ -1,0 +1,298 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='obstacles'>
+    <pose frame=''>0 0 0 0 -0 0</pose>
+    <link name='obstacle'>
+      <collision name='obstacle_1'>
+        <pose>-0.3 -1.0 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name='obstacle_1'>
+        <pose>-0.3 -1.0 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Purple</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='obstacle_2'>
+        <pose>-1.2 -0.8 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name='obstacle_2'>
+        <pose>-1.2 -0.8 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Orange</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='obstacle_3'>
+        <pose>-0.5 1.7 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name='obstacle_3'>
+        <pose>-0.5 1.7 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Yellow</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='obstacle_4'>
+        <pose>-1.2 0.4 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name='obstacle_4'>
+        <pose>-1.2 0.4 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Blue</name>
+          </script>
+        </material>
+      </visual>
+      
+      <collision name='obstacle_5'>
+        <pose>0.5 -1.3 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name='obstacle_5'>
+        <pose>0.5 -1.3 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Green</name>
+          </script>
+        </material>
+      </visual>
+      
+      <collision name='obstacle_6'>
+        <pose>1.3 1.5 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name='obstacle_6'>
+        <pose>1.3 1.5 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Red</name>
+          </script>
+        </material>
+      </visual>
+      
+      <collision name='obstacle_7'>
+        <pose>0.5 0.5 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name='obstacle_7'>
+        <pose>0.5 0.5 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Black</name>
+          </script>
+        </material>
+      </visual>
+      
+      <collision name='obstacle_8'>
+        <pose>1.5 1.5 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name='obstacle_8'>
+        <pose>1.5 1.5 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Turquoise</name>
+          </script>
+        </material>
+      </visual>
+      
+    </link>
+    <static>1</static>
+
+  </model>
+</sdf>
