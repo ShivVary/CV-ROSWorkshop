@@ -1,4 +1,4 @@
-# OPENCV + ROS 2 Tutorial
+# OpenCV + ROS2 Tutorial
 ---
 #  Commands for enviroment setup
 ## VM account setup
