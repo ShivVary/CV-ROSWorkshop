@@ -38,7 +38,7 @@ sudo service slim start
 ```
 cd ~
 git clone https://github.com/ShivVary/CV-ROSWorkshop.git
-cd ~/ROSWorkshop/"Installation Files"
+cd ~/CV-ROSWorkshop/"Installation Files"
 chmod +x install_combo.sh
 ./install_combo.sh
 source ~/.bashrc
