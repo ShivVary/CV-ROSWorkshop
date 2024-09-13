@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 from sm_srv_msg.srv import StateData  
 from sm_srv_msg.msg import StateTrans 
-from state_define import *
+from state_machine.state_define import *
 
 class State_server(Node):
 
