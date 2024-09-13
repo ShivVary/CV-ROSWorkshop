@@ -27,10 +27,10 @@ git clone https://github.com/ShivVary/ROSWorkshop.git
 cd ~/ROSWorkshop/"Installation Files"
 chmod +x install_combo.sh
 ./install_combo.sh
+source ~/.bashrc
 ```
 ## Test Run
 ```
-source ~/.bashrc
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
 ---
