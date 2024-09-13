@@ -1,41 +1,7 @@
 # OpenCV + ROS2 Tutorial
----
-#  Commands for enviroment setup
-## VM account setup
-```
-sudo apt upgrade && sudo apt update 
-sudo usermod -aG sudo <username>
-sudo passwd <username>
-```
-## Setup remote desktop
-```
-wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb 
-sudo apt-get install --assume-yes ./chrome-remote-desktop_current_amd64.deb
-sudo apt update && sudo apt upgrade
-sudo apt install slim
-sudo apt install ubuntu-desktop
-```
-## Restart slim 
-```
-sudo reboot
-sudo service slim start
-```
-## Install packages
-```
-cd ~
-git clone https://github.com/ShivVary/ROSWorkshop.git
-cd ~/ROSWorkshop/"Installation Files"
-chmod +x install_combo.sh
-./install_combo.sh
-source ~/.bashrc
-```
-## Test Run
-```
-ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
-```
----
-## Day 1 - OpenCV tutorial 
-Link to the [workshop tutorial](https://docs.google.com/document/d/1BChFJIBk2sLydrGdqkoIz4FfSqWrsZOTjOvE-tvFalQ/edit?usp=sharing)
+## Day 1 - OpenCV tutorial + VM Setup
+Link to the [VM setup instructions](https://www.canva.com/design/DAGQVYCFV04/FyIdE5foRu51QZp6f6cTZg/edit?utm_content=DAGQVYCFV04&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Link to the [Open CV tutorial](https://docs.google.com/document/d/1BChFJIBk2sLydrGdqkoIz4FfSqWrsZOTjOvE-tvFalQ/edit?usp=sharing)
 ## What is OpenCV?
 OpenCV (Open Source Computer Vision Library) is an open-source software library that provides a vast range of computer vision and machine learning algorithms. It is widely used in both academic and industrial settings for developing vision-based applications. Here are some key benefits of using OpenCV:
 
