@@ -1,9 +1,0 @@
-# StateService.srv
-# This service handles requests to manage or query state data.
-
-# Request part: includes a State message
-StateData state   # A State message defined earlier
-
----
-# Response part: includes a success indicator and a message
-bool success       # Indicates if the operation was successful

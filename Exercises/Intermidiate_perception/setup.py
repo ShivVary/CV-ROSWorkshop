@@ -1,11 +1,11 @@
 from setuptools import find_packages, setup
 
-package_name = 'state_machine'
-
+package_name = 'camera_pkg'
 setup(
     name=package_name,
     version='0.0.0',
-    packages=find_packages(exclude=['test']),
+    #packages=find_packages(exclude=['test']),
+    packages=find_packages(include=[package_name, package_name + '.*']),
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -20,9 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'client = state_machine.state_client:main',
-            'server = state_machine.state_server:main',
-            'sub_node = state_machine.node:main'
+            'perception = camera_pkg.perception_node:main'
         ],
     },
 )
