@@ -49,7 +49,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
 ---
 ## Day 2 - ROS2 tutorial 
-Link to the [ROS2 Tutorial] (https://drive.google.com/file/d/1Y0G9kx_eS5vRo2K8wVND4ZmPr21s-qwy/view)
+Link to the [ROS2 Tutorial](https://drive.google.com/file/d/1Y0G9kx_eS5vRo2K8wVND4ZmPr21s-qwy/view)
 --- 
 ## What is ROS 2? Why should I use it?
 ROS 2 (Robot Operating System 2) is the next generation of the original ROS, designed to address the limitations of ROS 1 and make it more suitable for modern robotics applications. Here are some key benefits of using ROS 2:
