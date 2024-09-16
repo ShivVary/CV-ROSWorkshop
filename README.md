@@ -34,6 +34,11 @@ sudo apt install ubuntu-desktop
 sudo reboot
 sudo service slim start
 ```
+
+## Remote desktop conenction 
+```
+https://remotedesktop.google.com/access/
+```
 ## Install packages in the VM
 ```
 cd ~
