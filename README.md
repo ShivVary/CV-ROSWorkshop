@@ -30,6 +30,7 @@ sudo apt install slim
 sudo apt install ubuntu-desktop
 ```
 ## Restart slim 
+You will lose connection after rebooting, but don't worry just reconnect.
 ```
 sudo reboot
 sudo service slim start
