@@ -1,0 +1,6 @@
+# requests
+int64 new_state
+int64 tran_sig
+
+# Response
+bool is_approved
