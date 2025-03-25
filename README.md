@@ -49,6 +49,21 @@ To get the most out of this workshop, you should be familiar with:
 
 ---
 
+## 📅 Day 1: ROS Introduction + VM Setup
+
+On Day 1, we’ll cover the foundational concepts of ROS 2 and walk through setting up your development environment in the cloud using a pre-configured VM.
+
+### 🧠 Topics Covered:
+- What is ROS and how it works
+- Core concepts: nodes, topics, services
+- ROS 2 workspace structure and tooling
+- Virtual Machine setup on Google Cloud Platform
+
+### 📘 Resources:
+- 📄 [Day 1 Workshop Modules (Official ROS Docs)](https://docs.ros.org/en/rolling/Installation.html)
+- 🛠️ [Open the Setup Guide](Docs/Setup.md)
+
+---
 ## 💻 Development Environment
 
 To streamline setup and focus on learning, we’re using a **pre-configured Virtual Machine (VM) hosted on Virtual Box**.
