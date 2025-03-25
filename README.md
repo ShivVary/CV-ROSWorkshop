@@ -43,7 +43,7 @@ ROS 2 is widely used across industry and academia due to its scalability, flexib
 To get the most out of this workshop, you should be familiar with:
 
 ### ✅ Pre-requisites:
-- Proficient in python (Passed ENG1810/INFO1110)
+- Proficient in python **(Passed ENG1810/INFO1110)**
 - Basic command-line usage (`cd`, `ls`, `bash` scripting, etc.)
 - Software development principles and using the terminal
 
