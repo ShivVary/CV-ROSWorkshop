@@ -49,9 +49,9 @@ To get the most out of this workshop, you should be familiar with:
 
 ---
 
-## 📅 Day 1: ROS Introduction + VM Setup
+## 📅 [Day 1: ROS Introduction + VM Setup](Docs/Day1.md)
 
-On Day 1, we’ll cover the foundational concepts of ROS 2 and walk through setting up your development environment in the cloud using a pre-configured VM.
+On Day 1, we’ll cover the foundational concepts of ROS 2 and walk through setting up your development environment locally using a pre-configured VM.
 
 ### 🧠 Topics Covered:
 - What is ROS and how it works
@@ -59,22 +59,44 @@ On Day 1, we’ll cover the foundational concepts of ROS 2 and walk through sett
 - ROS 2 workspace structure and tooling
 - Virtual Machine setup on Google Cloud Platform
 
-### 📘 Resources:
-- 📄 [Day 1 Workshop Modules (Official ROS Docs)](https://docs.ros.org/en/rolling/Installation.html)
-- 🛠️ [Open the Setup Guide](Docs/Setup.md)
+---
+
+## 📅 [Day 2: ROS 2 Intermediate – OpenCV, Gazebo, Actions & Services](Docs/Day2.md)
+
+On Day 2, we build on the fundamentals and dive into **practical development** with ROS 2. You’ll write your own nodes, interface with Gazebo, integrate computer vision using OpenCV, and learn how to implement services and actions in a ROS 2 system.
+
+### 🧠 Topics Covered:
+- Writing custom ROS 2 nodes in Python
+- Subscribing and publishing with image data using OpenCV
+- Simulating robots and environments in Gazebo
+- Implementing and calling services
+- Understanding and using ROS 2 actions for long-running tasks
+
+### 🧪 Hands-On Activities:
+- Launch a Gazebo world and spawn a robot
+- Capture and process camera data in real time with OpenCV
+- Create a service server and client in Python
+- Trigger an action server for a robot to complete a navigation task
 
 ---
+
 ## 💻 Development Environment
 
 To streamline setup and focus on learning, we’re using a **pre-configured Virtual Machine (VM) hosted on Virtual Box**.
 
 > Prefer to use your own setup?  
-You can also install ROS 2 locally on **Linux** or **Windows**, or run it inside a **Docker container**.  
+You can also install ROS 2 locally on **Linux** or run it inside a **Docker container**.
+  
 Official installation instructions are available on the [ROS 2 documentation site](https://docs.ros.org/en/rolling/Installation.html).
 
 --- 
 
-## More Resources
-ROS 2 includes powerful features like actions, nodes, topics, services, parameters, logging, and the ability to operate across multiple devices. To learn more about these capabilities, the official ROS 2 documentation and tutorials are a great place to start: https://docs.ros.org/en/humble/index.html. Happy coding with ROS 2!
+## 📚 More Resources
 
+Interested in exploring advanced features of ROS 2?  
+The official [ROS 2 documentation and tutorials](https://docs.ros.org/en/humble/index.html) are an excellent place to dive deeper into its capabilities.
+
+From real-time systems to robot navigation, simulation, and beyond — there's a lot to explore.
+
+Happy coding with ROS 2! 🚀
 ---
