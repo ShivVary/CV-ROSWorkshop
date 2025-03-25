@@ -27,6 +27,24 @@ If you want to skip installation and dive straight into ROS 2, download the pre-
 
 > 📝 Your VM already includes ROS 2 Humble, essential tools, and common dependencies.
 
+6. Update and upgrade dependencies
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+7. Source ROS2 setup.bash
+
+``` bash
+Source ~/.bashrc
+```
+
+8. Test Run in the VM
+ 
+```bash
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+```
+
 ---
 
 ## 🍎 Option 2: Use Ubuntu Environment on macOS
@@ -35,9 +53,7 @@ If you're using a Mac, you can run Ubuntu in a virtual machine.
 
 ### 🔗 Tools
 
-- 💻 **VirtualBox**: [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - 🟣 **UTM for Apple Silicon (M1/M2)**: [Download UTM](https://mac.getutm.app/)
-- 📥 **Ubuntu 22.04 ISO (Google Drive)**: [Download ISO](https://drive.google.com/your-ubuntu-iso-link)
 
 ### 🧭 Instructions
 
@@ -57,13 +73,16 @@ Want to install Ubuntu 22.04 on bare metal or another VM setup?
 
 ### 🔗 Resources
 
-- 🌐 [Ubuntu 22.04 Official Download Page](https://ubuntu.com/download/desktop)
+- 🌐 [Installing Ubuntu 22.04 instructions](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 - 📥 [Google Drive ISO Backup (optional)](https://drive.google.com/your-ubuntu-iso-link)
+
+> 💡  Bootable USB drives with Ubuntu 22.04 will be available during the workshop. If you’d like to install Ubuntu directly on your machine, please ask a volunteer to assist you.
+
 ---
 
 ### 🔧 Installation Steps
 
-Once you’ve installed Ubuntu, copy these instruction to your terminal to install ROS 2 Humble, Gazebo, essential tools, and common dependencies:
+Once you’ve installed Ubuntu 22.04, copy these instruction to your terminal to install ROS 2 Humble, Gazebo, essential tools, and common dependencies:
 
 ```bash
  cd ~
@@ -73,7 +92,7 @@ Once you’ve installed Ubuntu, copy these instruction to your terminal to insta
  ./install_combo.sh
  source ~/.bashrc
  ```
- ### Test Run in the VM
- ```
+ ### Test Run
+ ```bash
  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
  ```
