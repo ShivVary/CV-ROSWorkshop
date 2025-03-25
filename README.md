@@ -1,83 +1,63 @@
-# OpenCV + ROS2 Tutorial
-## Day 1 - OpenCV tutorial + VM Setup
-Link to the [VM setup instructions](https://drive.google.com/file/d/18aLiG70_rBXKSzhoKSONQuQfkkvQI3rI/view?usp=sharing)
+# 🤖 ROS 2 Workshop
 
-Link to the [Open CV tutorial](https://docs.google.com/document/d/1BChFJIBk2sLydrGdqkoIz4FfSqWrsZOTjOvE-tvFalQ/edit?usp=sharing)
+Welcome to the **ROS 2 Workshop** — a hands-on introduction to the Robot Operating System 2 by **University of Sydney Robotics Club**!  
+Whether you're a beginner or an experienced developer exploring robotics, this workshop will guide you through the essentials of ROS 2 and give you practical experience in building robot applications.
 
-# VM Setup links
-## GCP
-```
-https://console.cloud.google.com/compute
-```
-## Remote connect to desktop
-```
-https://remotedesktop.google.com/headless
-```
 ---
-#  Commands for enviroment setup
-## VM account setup
-```
-sudo apt upgrade && sudo apt update 
-sudo usermod -aG sudo <username>
-sudo passwd <username>
-```
-## Setup remote desktop
-```
-wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb 
-sudo apt-get install --assume-yes ./chrome-remote-desktop_current_amd64.deb
-sudo apt update && sudo apt upgrade
-sudo apt install slim
-sudo apt install ubuntu-desktop
-```
-## Restart slim 
-You will lose connection after rebooting, but don't worry just reconnect.
-```
-sudo reboot
-sudo service slim start
-```
 
-## Remote desktop conenction 
-```
-https://remotedesktop.google.com/access/
-```
-## Install packages in the VM
-```
-cd ~
-git clone https://github.com/ShivVary/CV-ROSWorkshop.git
-cd ~/CV-ROSWorkshop/"Installation Files"
-chmod +x install_combo.sh
-./install_combo.sh
-source ~/.bashrc
-```
-## Test Run in the VM
-```
-ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
-```
+## 🗂️ Contents
+
+### 📘 Introduction
+Overview of ROS 2, its ecosystem, and what you'll learn in this workshop.
+
+### 🛠️ Day 1: ROS Introduction + Virtual Machine Setup
+- Introduction to ROS concepts
+- ROS 2 architecture and terminology
+- Setting up a ROS 2 environment using a VM on Google Cloud Platform (GCP)
+
+### 🚀 Day 2: Intermediate ROS + Mini Challenge
+- Writing and launching ROS 2 nodes
+- Topics, services, and parameter usage
+- A hands-on challenge to apply what you’ve learned
+
 ---
-## Day 2 - ROS2 tutorial 
-Link to the [ROS2 Tutorial](https://drive.google.com/file/d/1Y0G9kx_eS5vRo2K8wVND4ZmPr21s-qwy/view)
+
+## ❓ What is ROS 2? Why Should I Use It?
+
+**ROS 2 (Robot Operating System 2)** is the next-generation robotics framework designed to overcome the limitations of ROS 1 and meet the demands of real-world, production-grade robotics systems.
+
+### 🌟 Key Benefits:
+- **🧩 Modularity** – Build systems with reusable components for control, sensing, and actuation
+- **🛠️ Multi-Language Support** – Develop in C++, Python, and more
+- **⏱️ Real-Time Support** – Critical for time-sensitive robotic applications
+- **🔒 Improved Security** – Secure communication and node authentication
+- **📡 DDS Middleware** – Efficient, scalable communication using the Data Distribution Service
+- **🖥️ Cross-Platform** – Works on Linux, Windows, and supports Docker for containerized environments
+
+ROS 2 is widely used across industry and academia due to its scalability, flexibility, and large ecosystem of tools and libraries.
+
+---
+
+## 🧰 Requirements
+
+To get the most out of this workshop, you should be familiar with:
+
+### ✅ Pre-requisites:
+- Proficient in python (Passed ENG1810/INFO1110)
+- Basic command-line usage (`cd`, `ls`, `bash` scripting, etc.)
+- Software development principles and using the terminal
+
+---
+
+## 💻 Development Environment
+
+To streamline setup and focus on learning, we’re using a **pre-configured Virtual Machine (VM) hosted on Virtual Box**.
+
+> Prefer to use your own setup?  
+You can also install ROS 2 locally on **Linux** or **Windows**, or run it inside a **Docker container**.  
+Official installation instructions are available on the [ROS 2 documentation site](https://docs.ros.org/en/rolling/Installation.html).
+
 --- 
-## What is ROS 2? Why should I use it?
-ROS 2 (Robot Operating System 2) is the next generation of the original ROS, designed to address the limitations of ROS 1 and make it more suitable for modern robotics applications. Here are some key benefits of using ROS 2:
-
-- Enhanced Modularity: Similar to ROS 1, ROS 2 allows you to develop different robot components separately, such as sensing, control, and actuation systems, which helps manage complexity.
-- Multi-Language Support: ROS 2 supports C++, Python, and other languages, allowing you to leverage the strengths of each.
-- Real-Time Capabilities: ROS 2 is designed to support real-time systems, making it suitable for critical robotics applications that require precise timing and control.
-- Improved Security: ROS 2 incorporates better security features, which are essential for robotics applications in sensitive environments.
-- Support for DDS (Data Distribution Service): DDS is the backbone of ROS 2, allowing for efficient communication across different platforms and devices, including distributed systems.
-- Cross-Platform Support: ROS 2 works on Linux and Windows allowing developers to choose their preferred operating system.
-
-ROS 2 is widely used in industry and research because of its flexibility, scalability, and ability to integrate with modern robotic hardware and software.
-
-# Tutorial Requirements
-To comfortably understand this tutorial, you should be familiar with basic command line operations, including navigating directories with cd and executing commands. Knowledge of package management and basic software development principles will also be beneficial.
-
-## Optional but helpful skills include:
-- Solid Programming Skills: Proficiency in Python will make it easier to develop ROS 2 nodes and debug code.
-- Basic Networking Knowledge: Understanding how networks work will help when working with distributed ROS 2 systems.
-- Stable Internet Connection: Essential for downloading packages, updates, and dependencies.
-  
-You can run ROS 2 directly on Linux or Windows, or you can use Docker for a more isolated environment.To save time, we are setting up a VM hosted on GCP. Installation guides are available on the official ROS 2 website, and you can find detailed instructions for your operating system there.
 
 ## More Resources
 ROS 2 includes powerful features like actions, nodes, topics, services, parameters, logging, and the ability to operate across multiple devices. To learn more about these capabilities, the official ROS 2 documentation and tutorials are a great place to start: https://docs.ros.org/en/humble/index.html. Happy coding with ROS 2!
