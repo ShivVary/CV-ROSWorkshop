@@ -13,7 +13,7 @@ Overview of ROS 2, its ecosystem, and what you'll learn in this workshop.
 ### 🛠️ Day 1: ROS Introduction + Virtual Machine Setup
 - Introduction to ROS concepts
 - ROS 2 architecture and terminology
-- Setting up a ROS 2 environment using a VM on Google Cloud Platform (GCP)
+- Setting up a ROS 2 environment using a VM on VirtualBox
 
 ### 🚀 Day 2: Intermediate ROS + Mini Challenge
 - Writing and launching ROS 2 nodes
