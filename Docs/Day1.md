@@ -10,7 +10,7 @@ On Day 1, we'll cover:
 
 ## Local VM setup
 
-### 🛠️ [Setup guide](Docs/Setup.md)
+### 🛠️ [Setup guide](Setup.md)
 
 --- 
 
