@@ -12,10 +12,11 @@ If you want to skip installation and dive straight into ROS 2, download the pre-
 ### 🔗 Downloads
 
 - 📦 **VirtualBox** (hypervisor): [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-- 🧳 **Pre-configured VM image** (Google Drive): [Download VM Image](https://drive.google.com/your-placeholder-link)
+- 🧳 **Pre-configured VM image** (Google Drive): [Download VM Image](https://drive.google.com/file/d/1PXVDw4N5lxZUJlv4mMCjEZXLyQYma61p/view?usp=sharing)
+- 📥 [**Ubuntu 22.04 ISO**](https://drive.google.com/file/d/1Eje4dw9OXfiPicqhlAbsmVYbvwIku_G1/view?usp=sharing)
 
 > 💡 Make sure virtualization is enabled in your BIOS/firmware.
-- If you do not know how to do this contact a volunteer
+> If you do not know how to do this contact a volunteer
 
 ### 🚀 Steps
 
@@ -109,11 +110,12 @@ Want to install Ubuntu 22.04 on bare metal or another VM setup?
 ### 🔗 Resources
 
 - 🌐 [Installing Ubuntu 22.04 instructions](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
-- 📥 [Google Drive ISO Backup (optional)](https://drive.google.com/your-ubuntu-iso-link)
+- 📥 [Google Drive ISO Backup (optional)](https://drive.google.com/file/d/1Eje4dw9OXfiPicqhlAbsmVYbvwIku_G1/view?usp=sharing)
 
 > 💡  Bootable USB drives with Ubuntu 22.04 is available during the workshop. If you’d like to install Ubuntu directly on your machine, ask a volunteer to assist you.
 
-**Disk partition is risky can cause data to wipe out. Do it under your risk **
+**Disk partition is risky can cause data wipe out. Do it at your own risk** 
+> I have learnt it the hard way. 
 
 ---
 
