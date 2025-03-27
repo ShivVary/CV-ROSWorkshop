@@ -73,7 +73,7 @@ On Day 2, we build on the fundamentals and dive into **practical development** w
 - Understanding and using ROS 2 actions for long-running tasks
 
 ### 🧪 Hands-On Activities:
-- Launch a Gazebo world and spawn a robot
+- Launch a Gazebo world and spawn a robotb
 - Capture and process camera data in real time with OpenCV
 - Create a service server and client in Python
 - Trigger an action server for a robot to complete a navigation task
@@ -82,10 +82,10 @@ On Day 2, we build on the fundamentals and dive into **practical development** w
 
 ## 💻 Development Environment
 
-To streamline setup and focus on learning, we’re using a **pre-configured Virtual Machine (VM) hosted on Virtual Box**.
+To streamline setup and focus on learning, we’re using a (pre-configured Virtual Machine (VM) hosted on Virtual Box)[Docs/Setup.md]
 
-> Prefer to use your own setup?  
-You can also install ROS 2 locally on **Linux** or run it inside a **Docker container**.
+> (Prefer to use your own setup?)[Docs/Setup.md]
+You can install Ubuntu 22.04 on bare metal and run ROS 2 locally
   
 Official installation instructions are available on the [ROS 2 documentation site](https://docs.ros.org/en/rolling/Installation.html).
 
