@@ -27,7 +27,7 @@ If you want to skip installation and dive straight into ROS 2, download the pre-
 3. Open VirtualBox and go to **File → Import Appliance**
 4. Select the downloaded `.ova` file and follow the prompts
 
-** You might want to update the the storage, cpu (cores), ram required. As of now it is set to utilize 4 cores, 4 gb ram and 50 gb storage). If you do not know how to do this contact a volunteer**
+**You might want to update the the storage, cpu (cores), ram required in settings. As of now it is set to utilize 4 cores, 4 gb ram and 50 gb storage. If you do not know how to do this contact a volunteer**
 
 5. Launch the VM and you're ready to go!
 
@@ -71,7 +71,7 @@ If you're using a Mac (why), you can run Ubuntu in a virtual machine.
 
 > 📝 Your VM needs ROS 2 Humble, essential tools, and common dependencies.
 
-6. 
+6. Copy these instruction to yur terminal
 
 ```bash
  cd ~
@@ -105,7 +105,7 @@ ros2 --version
 ## 💽 Option 3: Install Ubuntu 22.04 Manually (only Windows users)
 
 Want to install Ubuntu 22.04 on bare metal or another VM setup?
-> 📝 Takes time but rewarding
+> Takes time but rewarding
 
 ### 🔗 Resources
 
