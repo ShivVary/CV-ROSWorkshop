@@ -1,4 +1,4 @@
-3# 🤖 ROS 2 Workshop
+# 🤖 ROS 2 Workshop
 
 Welcome to the **ROS 2 Workshop** — a hands-on introduction to the Robot Operating System 2 by **University of Sydney Robotics Club**!  
 Whether you're a beginner or an experienced developer exploring robotics, this workshop will guide you through the essentials of ROS 2 and give you practical experience in building robot applications.
