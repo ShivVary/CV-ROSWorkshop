@@ -1,4 +1,4 @@
-# 📅 Day 1: ROS Introduction + VM Setup
+# 📅 Day 2: ROS 2 Intermediate
 
 On Day 2, we'll cover:
 - Writing custom ROS 2 nodes in Python
@@ -11,4 +11,6 @@ On Day 2, we'll cover:
 
 ## 📘 Workshop Modules
 
-### 📄 [Day 1 Workshop Modules (Official ROS Docs)](https://docs.ros.org/en/rolling/Installation.html)
+### [ROS 2 Part 2](https://drive.google.com/file/d/1AGRT_rGDQJmSr0sw7pLkzNfCPrA6o9rq/view?usp=sharingl)
+
+### [Bagfile for OpenCV](https://drive.google.com/file/d/1d3SD7c7DSv663hUN-1JjV3Rsw_RgZKTj/view?usp=sharing)

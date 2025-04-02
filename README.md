@@ -82,10 +82,10 @@ On Day 2, we build on the fundamentals and dive into **practical development** w
 
 ## 💻 Development Environment
 
-To streamline setup and focus on learning, we’re using a (pre-configured Virtual Machine (VM) hosted on Virtual Box)[Docs/Setup.md]
+To streamline setup and focus on learning, we’re using a [pre-configured Virtual Machine (VM) hosted on Virtual Box](Docs/Setup.md)
 
-> (Prefer to use your own setup?)[Docs/Setup.md]
-You can install Ubuntu 22.04 on bare metal and run ROS 2 locally
+> Prefer to use your own setup?
+[You can install Ubuntu 22.04 on bare metal and run ROS 2 locally](Docs/Setup.md)
   
 Official installation instructions are available on the [ROS 2 documentation site](https://docs.ros.org/en/rolling/Installation.html).
 
