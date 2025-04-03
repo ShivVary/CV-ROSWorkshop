@@ -5,6 +5,8 @@ On Day 1, we'll cover:
 - Setting up your ROS 2 environment locally
 - What is ROS and how it works
 - Core concepts: nodes, topics, services
+- Work on module 1 to 3
+- If you have finished 1-3, proceed to 4-6.
 
 ---
 

@@ -61,7 +61,7 @@ On Day 1, we’ll cover the foundational concepts of ROS 2 and walk through sett
 
 ---
 
-## 📅 [Day 2: ROS 2 Intermediate – OpenCV, Gazebo, Actions & Services](Docs/Day2.md)
+## 📅 [Day 2: ROS 2 Intermediate – OpenCV, Gazebo and mini challenge](Docs/Day2.md)
 
 On Day 2, we build on the fundamentals and dive into **practical development** with ROS 2. You’ll write your own nodes, interface with Gazebo, integrate computer vision using OpenCV, and learn how to implement services and actions in a ROS 2 system.
 
