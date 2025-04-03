@@ -22,7 +22,7 @@ yes | sudo apt update
 yes | sudo apt upgrade
 
 yes | sudo apt install ros-humble-desktop
-yes | sudo apt install ros-dev-tools
+yes | sudo apt install sudo apt install ros-humble-desktop ros-dev-tools
 
 yes | sudo snap install code --classic 
 
@@ -30,4 +30,5 @@ yes | sudo apt install python3-pip
 yes | pip3 install numpy matplotlib
 yes | sudo apt install gstreamer1.0-tools gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
 yes | pip install --upgrade opencv-python opencv-python-headless
+yes | sudo apt-get install terminator
 
