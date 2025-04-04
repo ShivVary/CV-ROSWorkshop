@@ -21,13 +21,15 @@ If you want to skip installation and dive straight into ROS 2, download the pre-
 ### 🚀 Steps
 
 1. Install VirtualBox
-2. Download the `.ova` file from the link above
+2. Download the `.ova` and ISO file from the link above
 > 💡 Make sure you have 60 gb of free storage
 
 3. Open VirtualBox and go to **File → Import Appliance**
-4. Select the downloaded `.ova` file and follow the prompts
+4. Select the downloaded `.ova` file and the ISO file. 
 
 **You might want to update the the storage, cpu (cores), ram required in settings. As of now it is set to utilize 4 cores, 4 gb ram and 50 gb storage. If you do not know how to do this contact a volunteer**
+
+**Show a volunteer your VM configuration before you launch it**
 
 5. Launch the VM and you're ready to go!
 
