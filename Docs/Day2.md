@@ -10,7 +10,7 @@ On Day 2, we'll cover:
 
 ## 📘 Workshop Modules
 
-### [ROS 2 Part 2](https://drive.google.com/file/d/1sfga_CJeIIzvwtAeocN3GfY8yjjvcIqz/view?usp=sharing)
+### [ROS 2 Part 2](https://drive.google.com/file/d/1FBjoaEiiWWV1W9_OgdpsPDELqB910lhU/view?usp=sharing)
 
 ### [Bagfile for OpenCV](https://drive.google.com/file/d/1d3SD7c7DSv663hUN-1JjV3Rsw_RgZKTj/view?usp=sharing)
 
