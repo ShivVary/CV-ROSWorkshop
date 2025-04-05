@@ -22,7 +22,8 @@ yes | sudo apt update
 yes | sudo apt upgrade
 
 yes | sudo apt install ros-humble-desktop
-yes | sudo apt install sudo apt install ros-humble-desktop ros-dev-tools
+yes | sudo apt install ros-humble-desktop 
+yes | sudo apt install ros-dev-tools
 
 yes | sudo snap install code --classic 
 
