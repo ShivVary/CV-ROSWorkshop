@@ -18,6 +18,6 @@ On Day 1, we'll cover:
 
 ## 📘 Workshop Modules
 
-### - [ROS 2 Introduction](https://drive.google.com/file/d/1a4wZIsX1B0VjKIp-05QXaLsDvor6ml31/view?usp=sharing)
+### - [ROS 2 Introduction](https://drive.google.com/file/d/16C1pgw-PoScUA9X7Otusb_tEbSgner5x/view?usp=sharing)
 
-### - [ROS 2 Part 1](https://drive.google.com/file/d/1QjXp4mL-iZ0AEiWvg61nUNJZ10tTGPe7/view?usp=sharing)
+### - [ROS 2 Part 1](https://drive.google.com/file/d/1AqSg3ayvkRX0EeT8120j6627q15QoMe9/view?usp=sharing)
